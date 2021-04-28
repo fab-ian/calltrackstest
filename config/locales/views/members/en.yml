@@ -1,0 +1,7 @@
+en:
+  members:
+    new:
+     email: 'Your Email'
+     name: 'Your Name'
+     submit: 'Join the waiting list'
+     comming_soon: 'Comming soon'

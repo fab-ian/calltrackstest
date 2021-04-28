@@ -1,0 +1,15 @@
+<%= javascript_pack_tag 'member_new' %>
+
+<div class='container'>
+  <h2><%= t('.comming_soon')%></h2>
+
+  <%= form_with model: @member do |f| %>
+    <%= f.label :email, t('.email') %>
+    <%= f.text_field :email, autofocus: true %>
+    <%= f.label :name, t('.name') %>
+    <%= f.text_field :name %>
+    <%= f.submit t('.submit').upcase, id: 'commit', disabled: 'disabled' %>
+
+    <div id='error_message'</div>
+  <% end %>
+</div>

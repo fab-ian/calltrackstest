@@ -1,3 +1,9 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root 'members#new'
+
+  get '/members/thank_you' => 'members#thank_you'
+
+  resources :members, only: %i[new create index]
 end

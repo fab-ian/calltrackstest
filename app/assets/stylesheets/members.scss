@@ -1,0 +1,32 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.container h1, h2 {
+  text-align: center;
+}
+
+.container div {
+  margin-top: 10px;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color: #990000;
+  width: 100%;
+  color: #F8F8FF;
+  margin: 10px
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=submit] {
+  background-color: #F8F8FF;
+  border-radius: 12px 12px 12px 0px;
+  font-weight: bold;
+  padding: 8px 16px;
+}
